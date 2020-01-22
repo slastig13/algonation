@@ -7,4 +7,4 @@ This repository is built for algorithm problems and practice.
 - Two Number Sum
 - Three Largest Numbers
 - Product Sum
-- Doubly Linked List Construction (in progress)
+- Doubly Linked List Construction

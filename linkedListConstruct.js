@@ -19,10 +19,7 @@ class DoublyLinkedList {
       this.head = node
       this.tail = node
     } else {
-      this.head.prev = node
-      node.next = this.head
-      node.prev = null
-      this.head = node
+      this.insertBefore(this.head, node)
     }
   }
 
@@ -30,46 +27,49 @@ class DoublyLinkedList {
     if (!this.tail) {
       this.setHead(node)
     } else {
-      this.tail.next = node
-      node.prev = this.tail
-      node.next = null
-      this.tail = node
+      this.insertAfter(this.tail, node)
     }
   }
 
   insertBefore(node, nodeToInsert) {
-    if (node === this.head) this.setHead(nodeToInsert)
-    else {
+    if (nodeToInsert === this.head && nodeToInsert === this.tail) return
+    this.remove(nodeToInsert)
+    nodeToInsert.prev = node.prev
+    nodeToInsert.next = node
+    if (!node.prev) {
+      this.head = nodeToInsert
+    } else {
       node.prev.next = nodeToInsert
-      nodeToInsert.prev = node.prev
-      node.prev = nodeToInsert
-      nodeToInsert.next = node
     }
+    node.prev = nodeToInsert
   }
 
   insertAfter(node, nodeToInsert) {
-    if (node === this.tail) this.setTail(nodeToInsert)
-    else {
+    if (nodeToInsert === this.head && nodeToInsert === this.tail) return
+    this.remove(nodeToInsert)
+    nodeToInsert.prev = node
+    nodeToInsert.next = node.next
+    if (!node.next) {
+      this.tail = nodeToInsert
+    } else {
       node.next.prev = nodeToInsert
-      nodeToInsert.next = node.next
-      node.next = nodeToInsert
-      nodeToInsert.prev = node
     }
+    node.next = nodeToInsert
   }
 
   insertAtPosition(position, nodeToInsert) {
-    if (position === 0 || !this.head) this.setHead(nodeToInsert)
+    if (position === 1 || !this.head) this.setHead(nodeToInsert)
     else {
       let nodeToInsertBefore = this.traversal(position)
-      if (nodeToInsertBefore === this.tail) this.setTail(nodeToInsert)
+      if (!nodeToInsertBefore) this.setTail(nodeToInsert)
       else this.insertBefore(nodeToInsertBefore, nodeToInsert)
     }
   }
   // helper function for position
   traversal(position) {
     let node = this.head
-    let counter = 0
-    while (counter < position && node.next !== null) {
+    let counter = 1
+    while (counter < position && node !== null) {
       node = node.next
       counter++
     }
