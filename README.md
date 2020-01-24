@@ -10,4 +10,4 @@ This repository is built for algorithm problems and practice.
 - Doubly Linked List Construction
 - Nth Fibonacci
 - Caesar Cipher Encryptor
-- Binary Search
+- Binary Search (in progress)
