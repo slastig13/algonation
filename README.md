@@ -2,6 +2,8 @@
 
 This repository is built for algorithm problems and practice.
 
+If you have any feedback, know of a different way of thinking about a problem, or notice something may be incorrect, please let me know! This is meant to help me learn and grow stronger as a developer so comments and feedback are greatly appreciated!
+
 ## Problems
 
 - Two Number Sum
@@ -10,4 +12,4 @@ This repository is built for algorithm problems and practice.
 - Doubly Linked List Construction
 - Nth Fibonacci
 - Caesar Cipher Encryptor
-- Binary Search (in progress)
+- Binary Search
