@@ -13,7 +13,7 @@ function findClosestValueInBst(tree, target) {
         bestCase.value = currNode.value
       }
       currNode = currNode.right
-    } else if (target < currNode.value && currNode.left) {
+    } else {
       if (currDiff < bestCase.diff) {
         bestCase.diff = currDiff
         bestCase.value = currNode.value
