@@ -13,4 +13,4 @@ If you have any feedback, know of a different way of thinking about a problem, o
 - Nth Fibonacci
 - Caesar Cipher Encryptor
 - Binary Search
-- Find Closest Value in BST (In Progress)
+- Find Closest Value in BST

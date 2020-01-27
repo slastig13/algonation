@@ -23,3 +23,7 @@ function findClosestValueInBst(tree, target) {
   }
   return bestCase.value
 }
+
+// on avg: O(log(N)) time complexity
+// worst case: O(N) time complexity (in case of one branch)
+// O(1) space complexity
