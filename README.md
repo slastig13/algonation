@@ -14,3 +14,4 @@ If you have any feedback, know of a different way of thinking about a problem, o
 - Caesar Cipher Encryptor
 - Binary Search
 - Find Closest Value in BST
+- Palindrome Check
