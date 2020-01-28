@@ -20,3 +20,6 @@ class Node {
     return array
   }
 }
+
+// O(V + E) time complexity where V is number of vertices in graph and E is number of edges in graph
+// O(V) space complexity
