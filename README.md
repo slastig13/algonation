@@ -19,3 +19,4 @@ If you have any feedback, know of a different way of thinking about a problem, o
 - Branch Sums
 - Bubble Sort
 - String Permutations
+- Insertion Sort
