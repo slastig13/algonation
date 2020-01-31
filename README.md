@@ -20,4 +20,4 @@ If you have any feedback, know of a different way of thinking about a problem, o
 - Bubble Sort
 - String Permutations
 - Insertion Sort
-- Knuth Morris Pratt (In Progress)
+- Knuth Morris Pratt
