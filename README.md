@@ -22,3 +22,4 @@ If you have any feedback, know of a different way of thinking about a problem, o
 - Insertion Sort
 - Selection Sort
 - Knuth Morris Pratt
+- Three Number Sum
