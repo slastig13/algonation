@@ -25,4 +25,4 @@ If you have any feedback, know of a different way of thinking about a problem, o
 - Three Number Sum
 - Smallest Difference
 - Move Element To End
-- BST Construction (in progress)
+- BST Construction
