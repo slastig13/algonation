@@ -24,3 +24,5 @@ If you have any feedback, know of a different way of thinking about a problem, o
 - Knuth Morris Pratt
 - Three Number Sum
 - Smallest Difference
+- Move Element To End
+- BST Construction (in progress)
