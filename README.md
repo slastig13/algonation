@@ -30,3 +30,4 @@ If you have any feedback, know of a different way of thinking about a problem, o
 - Validate BST
 - BST Traversal
 - Rotate Matrix
+- Search in Sorted Matrix
