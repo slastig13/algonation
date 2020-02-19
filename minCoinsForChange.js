@@ -5,7 +5,7 @@ function minNumberOfCoinsForChange(n, denoms) {
   minArray[0] = 0
 
   for (let denom of denoms) {
-    for (let i = 0; i < minArray.length; i++) {
+    for (let i = 1; i < minArray.length; i++) {
       if (denom <= i) {
         minArray[i] = Math.min(minArray[i], minArray[i - denom] + 1)
       }
