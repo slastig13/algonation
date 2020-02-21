@@ -35,3 +35,4 @@ If you have any feedback, know of a different way of thinking about a problem, o
 - Balanced Brackets
 - Min Number of Coins For Change
 - Remove Kth Node From End
+- Min Number of Jumps
