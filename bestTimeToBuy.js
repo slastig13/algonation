@@ -20,6 +20,9 @@ function maxProfit(prices) {
   return maxProfit
 }
 
+// O(N) time complexity
+// O(1) space complexity
+
 console.log(maxProfit([7, 1, 5, 3, 6, 4])) // should return 5
 console.log(maxProfit([7, 3, 5, 1, 6, 4])) // should return 5
 console.log(maxProfit([7, 3, 10, 1, 6, 4])) // should return 7
